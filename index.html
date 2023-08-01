@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dividir em Sessões</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>Dividir em Sessões</h1>
+  <form id="session-form">
+    <label for="valor-input">Digite um valor:</label>
+    <input type="number" id="valor-input" required>
+
+    <label for="sessao-maxima-input">Digite o valor máximo da sessão:</label>
+    <input type="number" id="sessao-maxima-input" required>
+
+    <label for="sessoes-por-dia-input">Digite o máximo de sessões por dia:</label>
+    <input type="number" id="sessoes-por-dia-input" required>
+
+    <button type="submit">Calcular</button>
+  </form>
+
+  <div id="resultado"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
